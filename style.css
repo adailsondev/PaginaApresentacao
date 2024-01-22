@@ -1,0 +1,68 @@
+/*CONFIGURACOES PADRAO*/
+
+    */*configuracao aplicada em toda a pagina*/
+    {
+        padding: 0px;/*tirar qualquer espacamento padrao que tenha*/
+        margin: 0px;/*tirar qualquer espacamento padrao que tenha*/
+    }
+
+    a/*tirar o aderlaine, configuracao aplicada em todos os as*/
+    {
+        text-decoration: none;
+        color: black;
+    }
+
+    body/*configuracao aplicada no body*/
+    {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    ul/*tirando a bolinha do ul*/
+    {
+        list-style: none;
+    }
+
+/*FIM CONFIGURACOES PADRAO*/
+
+/*CONFIGURACOES EXTRAS DO SITE*/
+
+    img
+    {
+        width: 40px;
+    }
+
+    /*todo input do type checked recebe essa configuracao*/
+    input[type="checkbox"]
+    {
+        display: none;/*faz desaparecer o botaozinho do checkbox*/
+    }
+
+    nav
+    {
+        background-color: rgba(16,16,16,.5);/*cord do fundo da tag <nav>*/
+        width: 350px;/*largura da nav*/
+        height: 500px;/*altura da nav, OBS:TENTAR CONCERTAR PRA 100% QUE NAO TA FUNCIONANDO*/
+        
+
+    }
+    
+    a
+    {
+        /*background-color:red;cord do fundo apenas da tag <a>*/
+        display: block;/*ocupa todo o espaco da tag <a> onde ela estiver inserida, neste caso dentro do nav*/
+        padding: 10px 5px;/*20px->encima e enbaixo 5px-> na esquerda e na direita*/
+        color: white;/*cord a letra da tag <a>*/
+
+    }
+    a:hover/*destaca onde o curso do mause passa na tag <a>*/
+    {
+        background-color: rgb(176,224,230);/*cor da tira quando passar o mause/
+        color: black;/*cor da letra quando passar o mause*/
+    }
+
+    label
+    {
+        background-color: red;/*cor fundo*/
+        padding: 15px;/*tamanho da cor fundo*/
+        position: absolute;/*faz com que o menu da tag nav suba*/
+    }
